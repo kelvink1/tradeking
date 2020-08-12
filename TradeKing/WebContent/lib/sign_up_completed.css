@@ -1,0 +1,21 @@
+@charset "UTF-8";
+
+.border-style {
+	border: 1px solid black;
+}
+
+.completed {
+	width: 600px;
+	margin: 200px auto;
+	padding: 20px 0;
+}
+
+.completed h1, .completed p, .completed__button {
+	display: flex;
+	justify-content: center;
+}
+
+.completed h1 {
+	font-size: 3em;
+	color: red;
+}

@@ -1,0 +1,32 @@
+@charset "UTF-8";
+
+.border-style {
+	border: 1px solid black;
+}
+
+.sign-up__wrap {
+	width: 800px;
+	margin: 200px auto;
+}
+
+.sign-up__form {
+	padding: 10px;
+	font-size: 20pt;
+}
+
+.sign-up__form fieldset input{
+	font-size: 20pt;
+}
+
+.sign-up__wrap input {
+	margin: 10px;
+}
+
+.sign-up__wrap input[type="text"] {
+	width: 100px;
+}
+
+.sign-up__button {
+	display: flex;
+	justify-content: center;
+}

@@ -1,0 +1,32 @@
+@charset "UTF-8";
+
+.border-style {
+	border: 1px solid black;
+}
+
+.login {
+	width: 400px;
+	margin: 200px auto;
+}
+
+.login>* {
+	display: flex;
+	justify-content: center;
+	margin: 20px;
+}
+
+.login>p:nth-child(1) {
+	font-size: 44pt;
+}
+
+.login>p:nth-child(2) {
+	font-size: 24pt;
+}
+
+.login>p:nth-child(n+3):nth-child(-n+4) {
+	font-size: 18pt;
+}
+
+.login__button>input {
+	margin: 20px 10px;
+}
