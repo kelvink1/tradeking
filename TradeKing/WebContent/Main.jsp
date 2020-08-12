@@ -21,8 +21,8 @@
 				<div class='port' onclick="location.href='Port.jsp'">항구</div>
 			</div>
 			<div class='right-side'>
-				<div class='greathall' onclick="location.href='Store.jsp'">왕궁</div>
-				<div class='jobsearch' onclick="location.href='Store.jsp'">직업소개소</div>
+				<div class='greathall' onclick="location.href='Palace.jsp'">왕궁</div>
+				<div class='jobsearch' onclick="location.href='Job.jsp'">직업소개소</div>
 				<div class='gamble' onclick="location.href='Gamble.jsp'">도박장</div>
 			</div>
 		</div>
