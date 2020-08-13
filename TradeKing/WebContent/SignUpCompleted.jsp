@@ -6,7 +6,7 @@
 <meta charset="UTF-8">
 <title>Insert title here</title>
 <link rel="stylesheet" type="text/css"
-	href="http://localhost:8080/TradeKing/lib/sign_up_completed.css">
+	href="http://<%=request.getServerName()%>:8080/TradeKing/lib/sign_up_completed.css">
 </head>
 <body>
 	<div class="completed border-style">

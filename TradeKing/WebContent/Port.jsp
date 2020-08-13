@@ -13,7 +13,7 @@ String path = null;
 <meta charset="UTF-8">
 <title>Insert title here</title>
 <link rel="stylesheet" type="text/css"
-	href="http://localhost:8080/TradeKing/lib/port.css">
+	href="http://<%=request.getServerName()%>:8080/TradeKing/lib/port.css">
 </head>
 <body>
 	<div class="port border-style">

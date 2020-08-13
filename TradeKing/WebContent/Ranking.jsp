@@ -6,7 +6,7 @@
 <meta charset="UTF-8">
 <title>Insert title here</title>
 <link rel="stylesheet" type="text/css"
-	href="http://localhost:8080/TradeKing/lib/ranking.css">
+	href="http://<%=request.getServerName()%>:8080/TradeKing/lib/ranking.css">
 </head>
 <body>
 	<div class="ranking">

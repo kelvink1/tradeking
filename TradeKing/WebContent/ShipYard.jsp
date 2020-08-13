@@ -12,7 +12,7 @@ String path = null;
 <meta charset="UTF-8">
 <title>Insert title here</title>
 <link rel="stylesheet" type="text/css"
-	href="http://localhost:8080/TradeKing/lib/ship_yard.css">
+	href="http://<%=request.getServerName()%>:8080/TradeKing/lib/ship_yard.css">
 </head>
 <body>
 	<div class="ship-yard border-style">

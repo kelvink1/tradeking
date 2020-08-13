@@ -7,7 +7,7 @@
 <title>Insert title here</title>
 </head>
 <link rel="stylesheet" type="text/css"
-	href="http://localhost:8080/TradeKing/lib/main.css">
+	href="http://<%=request.getServerName()%>:8080/TradeKing/lib/main.css">
 <body>
 	<div class='main'>
 		<jsp:include page="Menu.jsp" />

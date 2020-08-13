@@ -7,8 +7,8 @@
 
 <%
 	String part = request.getParameter("part");
-String pg = request.getParameter("page");
-String path = null;
+	String pg = request.getParameter("page");
+	String path = null;
 %>
 
 <!DOCTYPE html>
@@ -19,14 +19,14 @@ String path = null;
 <%
 	if (part != null) {
 %><link rel="stylesheet" type="text/css"
-	href="http://localhost:8080/TradeKing/lib/<%=part%>.css">
+	href="http://<%=request.getServerName()%>:8080/TradeKing/lib/<%=part%>.css">
 <%-- <script type="text/javascript"
 	src="http://localhost:8080/TradeKing/lib/<%=part%>.js"></script> --%>
 <%
 	} else {
 %>
 <link rel="stylesheet" type="text/css"
-	href="http://localhost:8080/TradeKing/lib/index.css">
+	href="http://<%=request.getServerName()%>:8080/TradeKing/lib/index.css">
 <%
 	}
 %>
@@ -36,7 +36,7 @@ String path = null;
 		<div class="content">
 			<%
 				if (part != null) {
-				path = part + "/" + pg + ".jsp";
+					path = part + "/" + pg + ".jsp";
 			%>
 			<jsp:include page="<%=path%>" />
 			<%
